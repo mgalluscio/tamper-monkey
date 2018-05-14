@@ -40,6 +40,8 @@
         }
     }
 
+  if (search.value === "") {
+
     if (getIframe("SearchForm") === "https://deliverydudes.biz/order/Browse/") {
         if (isHidden(search)) {
             console.log("Search Bar toggled!");
@@ -88,5 +90,6 @@
             selectListElement(terrList, territory);
         }
     }
+  }
 
 })();
